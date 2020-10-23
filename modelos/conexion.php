@@ -1,5 +1,7 @@
 <?php
-
+	$database="proyectofit";
+	$user='root';
+	$password='';
 class conexion
 {
     public function conectar(){
@@ -11,3 +13,6 @@ class conexion
 
     }
 }
+
+
+

@@ -7,7 +7,7 @@ session_start();
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>FIT | J.Z</title>
-  <link rel="shortcut icon" type="image/png" href="vistas/dist/img/icono.ico"/>
+  <link rel="shortcut icon" type="image/png" href="vistas/dist/img/favicon-iron.ico>
 
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,9 +43,10 @@ if(isset($_SESSION['login']) && $_SESSION['login'] == 'activa' ){
        $_GET["enlace"]=="clientes" ||
        $_GET["enlace"]=="planes" ||
        $_GET["enlace"]=="productos"||
-       $_GET["enlace"]=="notificacion"||
+       $_GET["enlace"]=="calendario"||
        $_GET["enlace"]=="contacto"||
        $_GET["enlace"]=="instalaciones"||
+       $_GET["enlace"]=="registro"||
        $_GET["enlace"]=="rutinas"||
        $_GET["enlace"]=="perfil"||
        $_GET["enlace"]=="crud"||

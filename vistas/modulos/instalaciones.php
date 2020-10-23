@@ -68,6 +68,15 @@
                 <div class="product-image-thumb active"><img src="vistas/dist/img/instalaciones/16.jpg" alt="Product Image"></div>
                 <div class="product-image-thumb active"><img src="vistas/dist/img/instalaciones/17.jpg" alt="Product Image"></div>
               </div>
+              <h4>Instalaciones de NaruCrossFit</h4>
+              <div class="col-12 product-image-thumbs">
+                <div class="product-image-thumb active"><img src="vistas/dist/img/instalaciones/18.jpg" alt="Product Image"></div>
+                <div class="product-image-thumb active"><img src="vistas/dist/img/instalaciones/19.jpg" alt="Product Image"></div>
+                <div class="product-image-thumb active"><img src="vistas/dist/img/instalaciones/20.jpg" alt="Product Image"></div>
+                <div class="product-image-thumb active"><img src="vistas/dist/img/instalaciones/21.jpg" alt="Product Image"></div>
+                <div class="product-image-thumb active"><img src="vistas/dist/img/instalaciones/22.jpg" alt="Product Image"></div>
+                <div class="product-image-thumb active"><img src="vistas/dist/img/instalaciones/23.jpg" alt="Product Image"></div>
+              </div>
               <br>
                     <div>
                       <center><iframe width="560" height="315" src="https://www.youtube.com/embed/lhemJArFpHA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>

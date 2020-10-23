@@ -95,35 +95,37 @@
               <p>●Remo al pecho con mancuerna 4×6</p>
            </li>
        </ul>
+       
+
+
     </div>
-    
-   </div>
+  </div>
+  </div>
+       
+        
 <!-- los link de los videos  -->
-              <center>
+<center>
  
-              <div>
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/lhemJArFpHA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/_1H6WS2RzoU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ <div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/lhemJArFpHA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/_1H6WS2RzoU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 <!-- el boton animado tipo neon -->
-                        <a href="https://www.youtube.com/watch?v=ztEhlPjufNk" target="_blank" class="btn-neon"onclick="saludo()">
-                            <span id="span1"></span>
-                            <span id="span2"></span>
-                            <span id="span3"></span>
-                            <span id="span4"></span>
-                           <h3> Seguir Viendo</h3>
-                        </a>
+           <a href="https://www.youtube.com/watch?v=ztEhlPjufNk" target="_blank" class="btn-neon"onclick="saludo()">
+               <span id="span1"></span>
+               <span id="span2"></span>
+               <span id="span3"></span>
+               <span id="span4"></span>
+              <h3> Seguir Viendo</h3>
+           </a>
+           </div>
+     
+       </div>
+ </center>
 
-                    </div>
-                    </div>
-              </center>
-                    
-                  </div>
-                </div>
-           
-         
-        
-
+  </div>
+  </div>
+    
           <style>
               /* estilo de acordion  */
 
@@ -183,6 +185,6 @@ ul li input[type=checkbox]:checked ~ i:before{
 }
 
 ul li input[type=checkbox]:checked ~ i:after{
-    transform: translate(-2px, 0) rotate(-45deg);
+    transform: translate(-2px, 0) rotate(-55deg);
 }
 </style>

@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="vistas/dist/css/demo.css" />
 
 
 <!-- Content Wrapper. Contains page content -->
@@ -29,28 +30,39 @@
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                       src="vistas/dist/img/user4-128x128.jpg"
+                       src="vistas/dist/img/perfil.jpg"
                        alt="User profile picture">
                 </div>
 
-                <h3 class="profile-username text-center">Nina Mcintire</h3>
+                <h3 class="profile-username text-center">FIT</h3>
 
-                <p class="text-muted text-center">Software Engineer</p>
+                <p class="text-muted text-center">WEB PAGE</p>
 
                 <ul class="list-group list-group-unbordered mb-3">
                   <li class="list-group-item">
-                    <b>Followers</b> <a class="float-right">1,322</a>
+                    <b>Facebook</b> <a class="float-right">fit</a>
                   </li>
                   <li class="list-group-item">
-                    <b>Following</b> <a class="float-right">543</a>
+                    <b>Gmail</b> <a class="float-right">jefferwell2522@gmail.com</a>
                   </li>
                   <li class="list-group-item">
                     <b>Friends</b> <a class="float-right">13,287</a>
                   </li>
                 </ul>
 
-                <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+                <a href="https://www.facebook.com/FIT-103073684930075/?view_public_for=103073684930075" target="_blank" class="btn btn-primary btn-block"><b>Follow</b></a>
               </div>
+
+
+<!-- los botones de dar like ami pagina en facebook -->
+<div id="fb-root"></div>
+<center>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v8.0" nonce="NuQOrimg"></script>
+
+<div class="fb-like" data-href="https://www.facebook.com/FIT-103073684930075" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
+</center>
+<!-- ------------------------------------------------------------------------ -->
+
               <!-- /.card-body -->
             </div>
             <!-- /.card -->
@@ -58,21 +70,21 @@
             <!-- About Me Box -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">About Me</h3>
+                <h3 class="card-title">Sobre Mí</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-                <strong><i class="fas fa-book mr-1"></i> Education</strong>
+                <strong><i class="fas fa-book mr-1"></i> WEB PAGE-FIT</strong>
 
                 <p class="text-muted">
-                  B.S. in Computer Science from the University of Tennessee at Knoxville
+                Es un sitio web de fitness que proporciona un refugio contra el estrés y las tensiones de la vida ofreciendo tratamientos curados, clases y otras actividades para mejorar el bienestar.lle
                 </p>
 
                 <hr>
 
                 <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
 
-                <p class="text-muted">Malibu, California</p>
+                <p class="text-muted">Ecuador, Quito</p>
 
                 <hr>
 
@@ -81,16 +93,17 @@
                 <p class="text-muted">
                   <span class="tag tag-danger">UI Design</span>
                   <span class="tag tag-success">Coding</span>
-                  <span class="tag tag-info">Javascript</span>
-                  <span class="tag tag-warning">PHP</span>
-                  <span class="tag tag-primary">Node.js</span>
+                  <span class="tag tag-info">Bootstrap,</span>
+                  <span class="tag tag-info">Javascript,</span>
+                  <span class="tag tag-warning">PHP,</span>
+                  <span class="tag tag-primary">HTML-CSS</span>
                 </p>
 
                 <hr>
 
-                <strong><i class="far fa-file-alt mr-1"></i> Notes</strong>
+                <strong><i class="far fa-file-alt mr-1"></i> Notas</strong>
 
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+                <p class="text-muted">El Mundo FIT es algo maravilloso.</p>
               </div>
               <!-- /.card-body -->
             </div>
@@ -101,104 +114,111 @@
             <div class="card">
               <div class="card-header p-2">
                 <ul class="nav nav-pills">
-                  <li class="nav-item"><a class="nav-link active" href="#activity" data-toggle="tab">Activity</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#timeline" data-toggle="tab">Timeline</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#settings" data-toggle="tab">Settings</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="#comentarios" data-toggle="tab">Comentarios</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#timeline" data-toggle="tab">Datos</a></li>
                 </ul>
+                
+                <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+
+<a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=+593 95 986 1167&amp;text=Hola!&nbsp;me&nbsp;puede&nbsp;ayudar&nbsp;con&nbsp;más&nbsp;información&nbsp;de&nbsp;la&nbsp;página&nbsp;web">
+     <i class="fab fa-whatsapp"></i>
+</a>
+<a id="app-messenger" target="_blanck" href="https://www.facebook.com/messages/t/103073684930075">
+    <i class="fab fa-facebook-messenger"></i>
+</a>
+
+<style>
+  #app-messenger, #app-whatsapp{
+	position: fixed;
+	right: 24px;
+	bottom: 25px;
+	width: 60px;
+	z-index: 100;
+	display: none;
+}
+#app-whatsapp{
+	bottom: 95px;
+	display: block;
+}
+#app-messenger{
+	bottom: 25px;
+	display: block;
+}
+#app-messenger i, #app-whatsapp i{
+	font-size: 63px;
+}
+#app-whatsapp i{
+	color: #1ebea5;
+}
+#app-messenger i{
+	color: #0084ff;	
+}
+
+</style>
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+
               </div><!-- /.card-header -->
               <div class="card-body">
                 <div class="tab-content">
-                  <div class="active tab-pane" id="activity">
+                  <div class="active tab-pane" id="comentarios">
+                  
+<!-- esto es la parte del los comentarios con ayuda de disqus -->
+<h4>Déjanos tu comentario </h4>
+
+                  <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://fit-5.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+                
+<!-- --------------------------------------------------------------------------------------------------------------------------- -->       
                     <!-- Post -->
                     <div class="post">
                       <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="vistas/dist/img/user1-128x128.jpg" alt="user image">
+                        <img class="img-circle img-bordered-sm" src="vistas/dist/img/perfil.jpg" alt="User Image">
                         <span class="username">
-                          <a href="#">Jonathan Burke Jr.</a>
+                          <a href="#">Programadores de FIT</a>
                           <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
                         </span>
-                        <span class="description">Shared publicly - 7:30 PM today</span>
-                      </div>
-                      <!-- /.user-block -->
-                      <p>
-                        Lorem ipsum represents a long-held tradition for designers,
-                        typographers and the like. Some people hate it and argue for
-                        its demise, but others ignore the hate as they create awesome
-                        tools to help create filler text for everyone from bacon lovers
-                        to Charlie Sheen fans.
-                      </p>
-
-                      <p>
-                        <a href="#" class="link-black text-sm mr-2"><i class="fas fa-share mr-1"></i> Share</a>
-                        <a href="#" class="link-black text-sm"><i class="far fa-thumbs-up mr-1"></i> Like</a>
-                        <span class="float-right">
-                          <a href="#" class="link-black text-sm">
-                            <i class="far fa-comments mr-1"></i> Comments (5)
-                          </a>
-                        </span>
-                      </p>
-
-                      <input class="form-control form-control-sm" type="text" placeholder="Type a comment">
-                    </div>
-                    <!-- /.post -->
-
-                    <!-- Post -->
-                    <div class="post clearfix">
-                      <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="vistas/dist/img/user7-128x128.jpg" alt="User Image">
-                        <span class="username">
-                          <a href="#">Sarah Ross</a>
-                          <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
-                        </span>
-                        <span class="description">Sent you a message - 3 days ago</span>
-                      </div>
-                      <!-- /.user-block -->
-                      <p>
-                        Lorem ipsum represents a long-held tradition for designers,
-                        typographers and the like. Some people hate it and argue for
-                        its demise, but others ignore the hate as they create awesome
-                        tools to help create filler text for everyone from bacon lovers
-                        to Charlie Sheen fans.
-                      </p>
-
-                      <form class="form-horizontal">
-                        <div class="input-group input-group-sm mb-0">
-                          <input class="form-control form-control-sm" placeholder="Response">
-                          <div class="input-group-append">
-                            <button type="submit" class="btn btn-danger">Send</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                    <!-- /.post -->
-
-                    <!-- Post -->
-                    <div class="post">
-                      <div class="user-block">
-                        <img class="img-circle img-bordered-sm" src="vistas/dist/img/user6-128x128.jpg" alt="User Image">
-                        <span class="username">
-                          <a href="#">Adam Jones</a>
-                          <a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
-                        </span>
-                        <span class="description">Posted 5 photos - 5 days ago</span>
+                        <span class="description">FIT TEAM</span>
                       </div>
                       <!-- /.user-block -->
                       <div class="row mb-3">
                         <div class="col-sm-6">
-                          <img class="img-fluid" src="vistas/dist/img/photo1.png" alt="Photo">
+                          <img class="img-fluid" src="vistas/dist/img/TEAM/FIT TEAM.jpg" alt="Photo">
                         </div>
                         <!-- /.col -->
                         <div class="col-sm-6">
                           <div class="row">
                             <div class="col-sm-6">
-                              <img class="img-fluid mb-3" src="vistas/dist/img/photo2.png" alt="Photo">
-                              <img class="img-fluid" src="vistas/dist/img/photo3.jpg" alt="Photo">
+                              <img class="img-fluid mb-3" src="vistas/dist/img/TEAM/Nicole Molina.jpg" alt="Photo">
+                              <img class="img-fluid" src="vistas/dist/img/TEAM/JeffersonZambrano1.jpg" alt="Photo">
+
                             </div>
                             <!-- /.col -->
                             <div class="col-sm-6">
-                              <img class="img-fluid mb-3" src="vistas/dist/img/photo4.jpg" alt="Photo">
-                              <img class="img-fluid" src="vistas/dist/img/photo1.png" alt="Photo">
+                            <img class="img-fluid" src="vistas/dist/img/TEAM/StefiSamaniego.jpg" alt="Photo">
+                              <img class="img-fluid" src="vistas/dist/img/TEAM/Katherine Simba.jpg" alt="Photo">
                             </div>
+
+                            
                             <!-- /.col -->
                           </div>
                           <!-- /.row -->
@@ -206,178 +226,177 @@
                         <!-- /.col -->
                       </div>
                       <!-- /.row -->
-
-                      <p>
-                        <a href="#" class="link-black text-sm mr-2"><i class="fas fa-share mr-1"></i> Share</a>
-                        <a href="#" class="link-black text-sm"><i class="far fa-thumbs-up mr-1"></i> Like</a>
-                        <span class="float-right">
-                          <a href="#" class="link-black text-sm">
-                            <i class="far fa-comments mr-1"></i> Comments (5)
-                          </a>
-                        </span>
-                      </p>
-
-                      <input class="form-control form-control-sm" type="text" placeholder="Type a comment">
                     </div>
+                    
                     <!-- /.post -->
                   </div>
+                  <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+
                   <!-- /.tab-pane -->
                   <div class="tab-pane" id="timeline">
                     <!-- The timeline -->
                     <div class="timeline timeline-inverse">
                       <!-- timeline time label -->
                       <div class="time-label">
-                        <span class="bg-danger">
-                          10 Feb. 2014
-                        </span>
-                      </div>
-                      <!-- /.timeline-label -->
-                      <!-- timeline item -->
-                      <div>
-                        <i class="fas fa-envelope bg-primary"></i>
 
-                        <div class="timeline-item">
-                          <span class="time"><i class="far fa-clock"></i> 12:05</span>
 
-                          <h3 class="timeline-header"><a href="#">Support Team</a> sent you an email</h3>
+                      <!-- Profile Image -->
+            <div class="card card-primary card-outline">
+                <div class="text-center">
+                  <img class="profile-user-img img-fluid img-circle"
+                       src="vistas/dist/img/perfil.jpg"
+                       alt="User profile picture">
+            
+                              
+                                <h5 class="panel-title">Fit Team</h5>
+                            </div>
+                            <div class="panel-body">
+                                              <!-- <div align="center"> <a class="edit btn btn-primary" href="https://www.wiki4sport.com/gym/index.php?ife=gymMdUsr&amp;gymUsr=-IoY=sMM47"><i class="fa fa-fw fa-edit"></i> Modificar</a></div><br>
+                                                        
+                               
+                                    <div align="center"> 
+                                        	
+                                            <a class="delete btn btn-danger" href="https://www.wiki4sport.com/gym/index.php?ife=gymVwUsr&amp;gymUsr=MX3nO7bb32#" onclick="elmUsr(&#39;s3WGua7765&#39;,&#39; &#39;)"><i class="fa fa-trash-o"></i> Eliminar</a>
+                                           
+                                    </div>
+                                       -->
+                                       <center>
 
-                          <div class="timeline-body">
-                            Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
-                            weebly ning heekya handango imeem plugg dopplr jibjab, movity
-                            jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
-                            quora plaxo ideeli hulu weebly balihoo...
-                          </div>
-                          <div class="timeline-footer">
-                            <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
-                          </div>
+                                <div class="col-sm-8">
+                                    <br>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                
+                                                    <th>Datos
+                                                    <div class="text-center">
+                                                  <img class="profile-user-img img-fluid img-circle"
+                                                      src="vistas/dist/img/TEAM/logo/Jefferson Zambrano.jpg"
+                                                      alt="User profile picture">
+                                                </div>
+                                                </th>
+                                                    <th>Información</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                          		<tr>
+                                                    <td class="text-primary">Jefferson Zambrano</td>
+                                                    <td><b>Activo</b></td>
+                                                </tr>
+                                            	<tr>
+                                                    <td class="text-primary">Peso</td>
+                                                    <td>150kg</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary">Talla</td>
+                                                    <td>170cm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary">Sexo</td>
+                                                    <td>Masculino</td>
+                                                </tr>
+                                                <thead>
+                                                <tr>
+                                                    <th>Datos
+                                                    <div class="text-center">
+                                                  <img class="profile-user-img img-fluid img-circle"
+                                                      src="vistas/dist/img/TEAM/logo/StefiSamaniego.jpg"
+                                                      alt="User profile picture">
+                                                </div>
+                                                    </th>
+                                                    <th>Información</th>
+                                                </tr>
+                                            </thead>
+                                            <tr>
+                                                    <td class="text-primary">Stefi Samaniego</td>
+                                                    <td><b>Activo</b></td>
+                                                </tr>
+                                            	<tr>
+                                                    <td class="text-primary">Peso</td>
+                                                    <td>62kg</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary">Talla</td>
+                                                    <td>160cm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary">Sexo</td>
+                                                    <td>Femenino</td>
+                                                </tr>
+                                                <thead>
+                                                <tr>
+                                                    <th>Datos
+                                                    <div class="text-center">
+                                                  <img class="profile-user-img img-fluid img-circle"
+                                                      src="vistas/dist/img/TEAM/logo/Nicole Molina.jpg"
+                                                      alt="User profile picture">
+                                                </div>
+                                                    </th>
+                                                    <th>Información</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                          		<tr>
+                                                    <td class="text-primary">Nicole Molina</td>
+                                                    <td><b>Activo</b></td>
+                                                </tr>
+                                            	<tr>
+                                                    <td class="text-primary">Peso</td>
+                                                    <td>60kg</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary">Talla</td>
+                                                    <td>156cm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary">Sexo</td>
+                                                    <td>Femenino</td>
+                                                </tr>
+                                                <thead>
+                                                <tr>
+                                                    <th>Datos
+                                                    
+                                                    <div class="text-center">
+                                                  <img class="profile-user-img img-fluid img-circle"
+                                                      src="vistas/dist/img/TEAM/logo/Katherine Simba.jpg"
+                                                      alt="User profile picture">
+                                                </div>
+                                                    </th>
+                                                    <th>Información</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                          		<tr>
+                                                    <td class="text-primary">Katherine Simba</td>
+                                                    <td><b>Activo</b></td>
+                                                </tr>
+                                            	<tr>
+                                                    <td class="text-primary">Peso</td>
+                                                    <td>150kg</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary">Talla</td>
+                                                    <td>170cm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary">Sexo</td>
+                                                    <td>Femenino</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <br>
+                                      </center>
+                            </div>
                         </div>
-                      </div>
-                      <!-- END timeline item -->
-                      <!-- timeline item -->
-                      <div>
-                        <i class="fas fa-user bg-info"></i>
-
-                        <div class="timeline-item">
-                          <span class="time"><i class="far fa-clock"></i> 5 mins ago</span>
-
-                          <h3 class="timeline-header border-0"><a href="#">Sarah Young</a> accepted your friend request
-                          </h3>
-                        </div>
-                      </div>
-                      <!-- END timeline item -->
-                      <!-- timeline item -->
-                      <div>
-                        <i class="fas fa-comments bg-warning"></i>
-
-                        <div class="timeline-item">
-                          <span class="time"><i class="far fa-clock"></i> 27 mins ago</span>
-
-                          <h3 class="timeline-header"><a href="#">Jay White</a> commented on your post</h3>
-
-                          <div class="timeline-body">
-                            Take me to your leader!
-                            Switzerland is small and neutral!
-                            We are more like Germany, ambitious and misunderstood!
-                          </div>
-                          <div class="timeline-footer">
-                            <a href="#" class="btn btn-warning btn-flat btn-sm">View comment</a>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- END timeline item -->
-                      <!-- timeline time label -->
-                      <div class="time-label">
-                        <span class="bg-success">
-                          3 Jan. 2014
-                        </span>
-                      </div>
-                      <!-- /.timeline-label -->
-                      <!-- timeline item -->
-                      <div>
-                        <i class="fas fa-camera bg-purple"></i>
-
-                        <div class="timeline-item">
-                          <span class="time"><i class="far fa-clock"></i> 2 days ago</span>
-
-                          <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
-
-                          <div class="timeline-body">
-                            <img src="http://placehold.it/150x100" alt="...">
-                            <img src="http://placehold.it/150x100" alt="...">
-                            <img src="http://placehold.it/150x100" alt="...">
-                            <img src="http://placehold.it/150x100" alt="...">
-                          </div>
-                        </div>
-                      </div>
-                      <!-- END timeline item -->
-                      <div>
-                        <i class="far fa-clock bg-gray"></i>
-                      </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
                     </div>
                   </div>
-                  <!-- /.tab-pane -->
-
-                  <div class="tab-pane" id="settings">
-                    <form class="form-horizontal">
-                      <div class="form-group row">
-                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
-                        <div class="col-sm-10">
-                          <input type="email" class="form-control" id="inputName" placeholder="Name">
+                        </div>
                         </div>
                       </div>
-                      <div class="form-group row">
-                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                        </div>
                       </div>
-                      <div class="form-group row">
-                        <label for="inputName2" class="col-sm-2 col-form-label">Name</label>
-                        <div class="col-sm-10">
-                          <input type="text" class="form-control" id="inputName2" placeholder="Name">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="inputExperience" class="col-sm-2 col-form-label">Experience</label>
-                        <div class="col-sm-10">
-                          <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="inputSkills" class="col-sm-2 col-form-label">Skills</label>
-                        <div class="col-sm-10">
-                          <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <div class="offset-sm-2 col-sm-10">
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <div class="offset-sm-2 col-sm-10">
-                          <button type="submit" class="btn btn-danger">Submit</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <!-- /.tab-pane -->
-                </div>
-                <!-- /.tab-content -->
-              </div><!-- /.card-body -->
-            </div>
-            <!-- /.nav-tabs-custom -->
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+                      

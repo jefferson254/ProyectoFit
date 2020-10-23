@@ -1,5 +1,8 @@
  
  
+	<!-- Bootstrap -->
+ 
+  <link rel="stylesheet" type="text/css" href="vistas/dist/css/contato.css">
  <!-- Content Wrapper. Contains page content -->
  <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -12,7 +15,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="inicio">Inicio</a></li>
-              <li class="breadcrumb-item active">Contacto</li>
+              <li class="breadcrumb-item active">Información</li>
             </ol>
           </div>
         </div>
@@ -186,7 +189,37 @@
           </nav>
         </div>
  
+        <section id="localizacao">
+    <h1 class="titulo">Contacto</h1>
+		<div id="mapa">
+    <iframe class="izquierda" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7979.622639318259!2d-78.46155129200382!3d-0.1073325312638782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x251fe933f930358b!2sSmart%20Fit%20Portal!5e0!3m2!1ses!2sec!4v1602808527585!5m2!1ses!2sec" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	
+    <iframe class="derecha"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.804395928671!2d-78.48785348590378!3d-0.15137343548203028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59aae39552a6b%3A0x851867ed98138ce5!2sNaru%20CrossFit!5e0!3m2!1ses!2sec!4v1602808662838!5m2!1ses!2sec"  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>       
+  </section>
+  
+  <div id="contato">
+				<div class="divisor"></div>
+				<div class="container">
+					<div id="esquerda">
+							<img id="fb" class="icone" src="vistas/dist/img/facebook.png" alt="icone do facebook"/>
+							<a id="first" href="https://www.facebook.com/FIT-103073684930075" target="_blank">FIT</a>
+							<a href="https://www.facebook.com/NaruCrossFit" target="_blank">NaruCrossFIT  J.Z</a>
+					</div>
+					<div id="direita">
+						<div id="telefone" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<img src="vistas/dist/img/fone.png" alt="icone de telefone"/>
+							<p>(88) 99813-0756 /</p>
+							<p>(88) 99683-6218</p>
+						</div>
 
+						<div id="email" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+							<img class="icone" src="vistas/dist/img/email.png" alt="icone de email"/>
+							<p> holasomosFIT@gmail.com </p>
+							<p> jefferwell2522@gmail.com </p>
+						</div>	
+					</div>
+				</div>
+				<div class="divisor"></div>
+			</div>
           
 
         </form>

@@ -1,3 +1,4 @@
+
   <!-- Outer Row -->
   <div class="row justify-content-center">
 
@@ -36,18 +37,24 @@
             </div>
           </div>
         </div>
-        <p class="change_link">
-									Aun no eres miembro ?
-									<a href="#toregister" class="to_register">Regístrate</a>
-								</p>
+        <div class="row">
+          <div class="col-8">
+            <div class="icheck-primary">
+              <input type="checkbox" id="remember">
+              <label for="remember">
+              Recuérdame
+                       </label>
+            </div>
+            <p class="mb-6 m-2 left">
+              <a href="registro" class="text-center">Registrate aqui</a>
+            </p>
+          </div>
           
           <!-- /.col -->
-          
           <div class="col-4">
             <button type="submit" class="btn btn-primary btn-block">Acceder</button>
           </div>
           <!-- /.col -->
-        </div>
         </div>
         <?php
         $obj_login = new ControladorUsuario();

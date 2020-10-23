@@ -56,17 +56,17 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="notificacion" class="nav-link">
+            <a href="vistas/modulos/calendario" target="_blank" class="nav-link">
               <i class="nav-icon fas fa-bell"></i>
               <p>
-                Notificaciones
+                Calendario
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
           </li>
           <li class="nav-item">
             <a href="instalaciones" class="nav-link">
-              <i class="nav-icon fas fa-images"></i>
+              <i class="nav-icon fas fa-spa"></i>
               <p>
                 Instalaciones
                 <span class="right badge badge-danger"></span>
@@ -82,18 +82,55 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
-            <a href="rutinas" class="nav-link">
+          <!-- menu de rutinas -->
+          <li class="nav-item has-treeview">
+            <a href="rutinas" class="nav-link" >
               <i class="nav-icon fas fa-dumbbell"></i>
               <p>
-                Rutinas
+              Rutinas     
+              <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-users"></i>
+                  <p>Agregar Rutinas</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-chart-bar"></i>
+                  <p>Editar Rutinas</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="rutinas" class="nav-link">
+                  <i class="fab fa-product-hunt"></i>
+                  <p>Ver Rutinas</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="index" class="nav-link">
+              <i class="nav-icon fas fa-images"></i>
+              <p>
+                Gallery
                 <span class="right badge badge-danger"></span>
               </p>
             </a>
           </li>
-       
-
-          
+          <li class="nav-item">
+            <a href="registro" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+                Registro de Cliente
+                <span class="right badge badge-danger"></span>
+              </p>
+            </a>
+          </li>
           
         </ul>
       </nav>
