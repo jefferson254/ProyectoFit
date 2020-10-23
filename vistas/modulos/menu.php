@@ -36,7 +36,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="vistas/modulos/crud" target="_blank" class="nav-link">
+                <a href="vistas/modulos/crud" class="nav-link">
                   <i class="fas fa-users"></i>
                   <p>Clientes</p>
                 </a>
@@ -138,3 +138,8 @@
     </div>
     <!-- /.sidebar -->
   </aside>
+
+
+
+
+  
