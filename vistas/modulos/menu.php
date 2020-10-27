@@ -36,7 +36,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="vistas/modulos/crud" class="nav-link">
+                <a href="vistas/modulos/clientes" class="nav-link">
                   <i class="fas fa-users"></i>
                   <p>Clientes</p>
                 </a>
