@@ -34,9 +34,10 @@
               <i class="right fas fa-angle-left"></i>
               </p>
             </a>
+            
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="vistas/modulos/crud" target="_blank" class="nav-link">
+                <a href="clientes" class="nav-link">
                   <i class="fas fa-users"></i>
                   <p>Clientes</p>
                 </a>
@@ -48,7 +49,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="productos" class="nav-link">
+                <a href="vistas/modulos/productos" class="nav-link">
                   <i class="fab fa-product-hunt"></i>
                   <p>Productos</p>
                 </a>
@@ -56,11 +57,11 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="vistas/modulos/calendario" target="_blank" class="nav-link">
-              <i class="nav-icon fas fa-bell"></i>
+            <a href="datos" class="nav-link">
+              <i class="nav-icon fas fa-users"></i>
               <p>
-                Calendario
-                <span class="right badge badge-danger">New</span>
+                Datos 
+                <span class="right badge badge-danger"></span>
               </p>
             </a>
           </li>
