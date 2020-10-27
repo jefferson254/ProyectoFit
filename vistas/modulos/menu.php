@@ -56,15 +56,6 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="vistas/modulos/calendario" target="_blank" class="nav-link">
-              <i class="nav-icon fas fa-bell"></i>
-              <p>
-                Calendario
-                <span class="right badge badge-danger">New</span>
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
             <a href="instalaciones" class="nav-link">
               <i class="nav-icon fas fa-spa"></i>
               <p>
