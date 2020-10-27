@@ -42,7 +42,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="planes" class="nav-link">
+                <a href="vistas/modulos/planes" class="nav-link">
                   <i class="fas fa-chart-bar"></i>
                   <p>Planes</p>
                 </a>
